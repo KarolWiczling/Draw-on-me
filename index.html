@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: lightblue;
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            padding-left: 5vw;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 14px 14px 0px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        article{
+            padding-left: 5vw;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+        }
+        div{
+            margin-top: 5vh;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a class="active" href="#home">Home</a>
+        </li>
+        <li>
+            <a href="#news">News</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+        <li>
+            <a href="#about">About</a>
+        </li>
+    </ul>
+    <div>
+        <article>
+            <h1>Examlpe page</h1>
+        
+            <p>This example page </p>
+            <button>Some buttton</button>
+    
+        </article>
+
+        <aside>
+            <table>
+                <tr>
+                    <td>
+                        <p>This is a paragraph</p>
+                        <p>This is another paragraph</p>
+                    </td>
+                    <td>This cell contains a table:
+                        <table>
+                            <tr>
+                                <td>A</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>C</td>
+                                <td>D</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    
+                </tr>
+            </table>
+
+        </aside>
+
+    </div>
+
+    <script src="widget.js">
+    </script>
+</body>
+
+</html>
